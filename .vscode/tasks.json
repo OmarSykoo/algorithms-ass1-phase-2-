@@ -9,6 +9,7 @@
                 "-g",
                 "${workspaceFolder}/main.cpp",
                 "${workspaceFolder}/fib.cpp",
+                "${workspaceFolder}/SearchAlgo.cpp",
                 "-o",
                 "${workspaceFolder}/output.exe"
             ],

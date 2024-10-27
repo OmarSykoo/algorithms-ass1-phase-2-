@@ -37,9 +37,9 @@ fib::fib() {
     fibarr = vector<int>(mx, 0);
 }
 
-//      [ fn-1 , fn ]       [ 0 , 1 ]      [ 1 , 1 ]
+//      [ fn+1 , fn ]       [ 1 , 1 ]      [ 2 , 1 ]
 // fn = [           ]  f1 = [       ] f2 = [       ] 
-//      [ fn  , fn+1]       [ 1 , 1 ]      [ 1 , 2 ]
+//      [ fn  , fn-1]       [ 1 , 0 ]      [ 1 , 1 ]
 
 long long fib::FibonacciMatrix( int n ){
     if ( n <= 1 )
